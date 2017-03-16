@@ -14,5 +14,22 @@ namespace MovieReview_API.Controllers
 
             return View();
         }
+
+        public ActionResult MovieList()
+        {
+
+            return View();
+        }
+
+        public ActionResult ReviewList()
+        {
+            return View();
+        }
+
+        public ActionResult UserList()
+        {
+
+            return View();
+        }
     }
 }

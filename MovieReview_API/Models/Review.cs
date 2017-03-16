@@ -13,5 +13,7 @@ namespace MovieReview_API.Models
         public int MovieId { get; set; }
         public int Rating { get; set; }
 
+        
+        public virtual User User { get; set; }
     }
 }

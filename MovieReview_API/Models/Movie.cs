@@ -12,5 +12,6 @@ namespace MovieReview_API.Models
         public string Genre { get; set; }
         public string ReleaseDate { get; set; }
 
+
     }
 }
